@@ -92,16 +92,3 @@ CREATE TABLE EMPLOYEE (
 ✔ 1:N → CATEGORY → ROOM
 ✔ 1:N → HOTEL → EMPLOYEE
 ✔ Recursive 1:N → EMPLOYEE leads EMPLOYEE
-
----
-
-# Optional Improvements (If Required in Exam)
-
-You could also add:
-
-```sql
-AUTO_INCREMENT      -- MySQL
-SERIAL              -- PostgreSQL
-UNIQUE constraints
-CHECK constraints (Price > 0, Beds_numbers > 0)
-```
